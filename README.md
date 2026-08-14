@@ -1,11 +1,12 @@
-# FREE Reset static check-in
+# FREE Reset Daily Check-In
 
-Files:
-- `index.html` — participant Daily Check-In
-- `facilitator.html` — facilitator intake reader
-- `styles.css` — shared responsive styling
-- `shared.js` — time/calculation helpers
-- `participant.js` — participant controls, output, copy/share/WhatsApp
-- `facilitator.js` — local parser, averages, Day 1/14 changes
+Static, privacy-first FREE Reset check-in for all four program formats:
 
-Privacy: no database, analytics, cookies, localStorage, form submission, or automatic network transmission of participant responses. Data stays in the active page until the participant explicitly copies/shares/opens WhatsApp.
+- Sprint — 5 days
+- Challenge — 10 days
+- Relay — 14 days
+- Marathon — 30 days
+
+`index.html` is the participant check-in. `facilitator.html` is the separate local facilitator reader.
+
+No database, analytics, cookies, or automatic health-data transmission. Participant data remains in the browser until the participant intentionally copies, shares, or opens WhatsApp.
